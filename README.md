@@ -11,7 +11,8 @@ To replicate the same you must have pre requisite of using maven and spring fram
 
 - Add the below necessary dependencies such as spring core, spring context, hibernate core, mysql-connector-java, annotations in POM.xml file for maven dependecies
 
-```<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+```
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.hibernate</groupId>
@@ -65,7 +66,8 @@ To replicate the same you must have pre requisite of using maven and spring fram
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-</project>```
+</project>
+```
 
 - add the necessary details that i have provided in OrmConfig.cfg.xml file as a blueprint. 
 - build session factory and create a open session to apply CRUD (Create, Read, Update and Delete) as mentioned in the code
